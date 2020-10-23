@@ -1,0 +1,24 @@
+{
+    "name": "kamataryo/easy-boolean-query-for-elasticsearch",
+    "description": "Boolean DSL query parser for Elasticsearch.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kamataryo",
+            "email": "kamataryo@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+      "psr-4": {
+        "Kamataryo\\": "src/"
+      }
+    },
+    "scripts": {
+      "test": "phpunit"
+    }
+}
